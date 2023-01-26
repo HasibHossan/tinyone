@@ -1,0 +1,332 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  
+
+     nav{
+          padding-top: 5px!important;
+      }
+
+     .banner{
+           padding: 10px;
+     }
+
+     .slider-text{
+          margin-top: 0px;
+      }
+      
+      .slider-text h1{
+          font-size: 25px;
+          margin-bottom: 15px;
+      
+      }
+      
+      .slider-text h2{
+          font-size: 16px;
+          margin-bottom: 10px;
+      }
+      
+      .slider-text p{
+          font-size: 16px;
+          margin-bottom: 16px;
+      }
+      
+      .font-awsome-icon ul li{
+          margin-right: 25px !important;
+          font-size: 30px;
+      }
+      
+      
+          /* indicator start  */
+          .custom-indicator{
+              bottom: -55px;
+          }
+          .custom-indicator [data-bs-target] {
+              width: 10px;
+              height: 10px;
+          }
+     
+          /* indicator end  */
+
+          /* feature start  */
+
+            .feature{
+                padding: 10px 0px 20px 0px;
+            }
+
+            .f-custom-header{}
+
+            .f-custom-header h1{
+                font-size: 25px;
+                 margin-bottom: 10px;
+            }
+
+            .f-custom-header p{
+                font-size: 16px;
+            }
+
+              /* feature item  */
+
+    .s-f-item{
+        margin-top: 30px;
+    }
+
+    .single-feature-icon{
+       
+    }
+
+    .single-feature-icon i{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .single-feature-icon i:hover{
+            transform: scale(.8);
+            transform: rotate(10deg);
+            color: rgb(255, 193, 37) !important;
+            margin-left: 5px;
+            margin-right: -5px;
+        
+    }
+
+    .single-feature-txt{
+        text-align: center;
+    }
+
+    .single-feature-txt h2{
+        font-size: 22px;
+        font-weight: 700;
+        word-spacing: 5px;
+    }
+
+    .single-feature-txt p{
+        
+    }
+
+
+
+
+
+            /* feature end  */
+
+            .f_1 {
+                text-align: center;
+                padding-bottom: 40px;
+              }
+          .f_2 {
+                text-align: center;
+              }
+
+      
+
+
+     /* closing tag 	 */
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+     nav{
+          padding-top: 10px!important;
+      }
+
+     /* banner start  */
+     .banner{
+           padding: 15px 15px 20px 15px;
+     }
+      .slider-text{
+          margin-top: 0px;
+      }
+       
+       .slider-text h1{
+          font-size: 20px;
+          margin-bottom: 15px;
+       
+       }
+       
+       .slider-text h2{
+           font-size: 16px;
+           margin-bottom: 16px;
+       }
+       
+       .slider-text p{
+          font-size: 16px;
+          margin-bottom: 20px;
+       }
+       
+       .font-awsome-icon ul li{
+           margin-right: 30px !important;
+           font-size: 30px;
+       }
+       
+       
+           /* indicator start  */
+           .custom-indicator{
+               bottom: -50px;
+           }
+           .custom-indicator [data-bs-target] {
+               width: 12px;
+               height: 12px;
+           }
+      
+           /* indicator end  */
+
+     /* banner end   */
+      /* feature start  */
+
+      .feature{
+        padding: 20px 0px 30px 0px;
+    }
+
+    .f-custom-header{}
+
+    .f-custom-header h1{
+        font-size: 30px;
+         margin-bottom: 10px;
+    }
+
+    .f-custom-header p{
+        font-size: 20px;
+    }
+
+              /* feature item  */
+
+              .s-f-item{
+                margin-top: 40px;
+            }
+        
+            .single-feature-icon{
+               
+                
+            }
+        
+            .single-feature-icon i{
+                font-size: 35px;
+                margin-bottom: 20px;
+            }
+        
+            .single-feature-icon i:hover{
+                    transform: scale(.8);
+                    transform: rotate(10deg);
+                    color: rgb(255, 193, 37) !important;
+                    margin-left: 5px;
+                    margin-right: -5px;
+                
+            }
+        
+            .single-feature-txt{
+                text-align: center;
+            }
+        
+            .single-feature-txt h2{
+                font-size: 22px;
+                font-weight: 700;
+                word-spacing: 5px;
+            }
+        
+            .single-feature-txt p{
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+
+
+
+    /* feature end  */
+
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+     nav{
+          padding-top: 20px!important;
+      }
+     .banner{
+          padding: 60px 0px 80px 0px
+      }
+
+       /* feature start  */
+
+       .feature{
+        padding: 60px 0px 80px 0px;
+    }
+
+    .f-custom-header{}
+
+    .f-custom-header h1{
+       
+    }
+
+    .f-custom-header p{
+       
+    }
+
+
+
+
+    /* feature end  */
+
+              /* feature item  */
+
+              .s-f-item{
+                margin-top: 60px;
+            }
+        
+            .single-feature-icon{
+               
+            }
+        
+            .single-feature-icon i{
+                font-size: 45px;
+            }
+        
+            .single-feature-icon i:hover{
+                    transform: scale(.8);
+                    transform: rotate(10deg);
+                    color: rgb(255, 193, 37) !important;
+                    margin-left: 5px;
+                    margin-right: -5px;
+                
+            }
+        
+            .single-feature-txt{
+               
+            }
+        
+            .single-feature-txt h2{
+                font-size: 22px;
+                font-weight: 700;
+                word-spacing: 5px;
+            }
+        
+            .single-feature-txt p{
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+
+
+
+     /* closing tag  */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+     /* closing tag  */
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+     /* closing tag  */
+}
+
+/*Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+
+     /* closing tag  */
+}
