@@ -7,6 +7,18 @@
           padding-top: 5px!important;
       }
 
+      .custom-nav-item li a {
+        padding: 0 14px !important;
+        font-size: 18px;
+        text-align: right;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .custom-nav-item li:last-child a {
+        padding: 0 14px !important;
+        
+      }
+
      .banner{
            padding: 10px;
      }
@@ -39,19 +51,16 @@
       
           /* indicator start  */
           .custom-indicator{
-              bottom: -55px;
+              display: none;
           }
-          .custom-indicator [data-bs-target] {
-              width: 10px;
-              height: 10px;
-          }
+          
      
           /* indicator end  */
 
           /* feature start  */
 
             .feature{
-                padding: 10px 0px 20px 0px;
+                padding: 25px 0px 25px 0px;
             }
 
             .f-custom-header{}
@@ -81,12 +90,6 @@
     }
 
     .single-feature-icon i:hover{
-            transform: scale(.8);
-            transform: rotate(10deg);
-            color: rgb(255, 193, 37) !important;
-            margin-left: 5px;
-            margin-right: -5px;
-        
     }
 
     .single-feature-txt{
@@ -116,9 +119,38 @@
           .f_2 {
                 text-align: center;
               }
+/* footer start  */
+              footer {
+               
+                padding: 40px 0 40px 0;
+            }
+            .f-h-h1 {
+                margin-bottom: 10px;
+            }
 
-      
+            .f-form {
+                padding-top: 15px;
+                padding-bottom: 15px;
+              }
+          .f-email {
+                padding: 5px 10px;
+                height: 40px;
+                font-size: 15px;
+              }
+          .f-submit{
+                height: 40px;}
+          .footer-icon {
+               margin: 20px 0;
+            }
 
+            .footer-icon i {
+                
+                font-size: 40px;
+                margin-left: 25px;
+                
+            }
+
+/* footer end  */
 
      /* closing tag 	 */
 }
@@ -133,48 +165,61 @@
      .banner{
            padding: 15px 15px 20px 15px;
      }
-      .slider-text{
+     .custom-nav-item li a {
+        padding: 0 14px !important;
+        font-size: 18px;
+        text-align: right;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .custom-nav-item li:last-child a {
+        padding: 0 14px !important;
+        
+      }
+
+     .banner{
+           padding: 10px;
+     }
+
+     .slider-text{
           margin-top: 0px;
       }
-       
-       .slider-text h1{
-          font-size: 20px;
-          margin-bottom: 15px;
-       
-       }
-       
-       .slider-text h2{
-           font-size: 16px;
-           margin-bottom: 16px;
-       }
-       
-       .slider-text p{
-          font-size: 16px;
-          margin-bottom: 20px;
-       }
-       
-       .font-awsome-icon ul li{
-           margin-right: 30px !important;
-           font-size: 30px;
-       }
-       
-       
-           /* indicator start  */
-           .custom-indicator{
-               bottom: -50px;
-           }
-           .custom-indicator [data-bs-target] {
-               width: 12px;
-               height: 12px;
-           }
       
-           /* indicator end  */
+      .slider-text h1{
+          font-size: 25px;
+          margin-bottom: 15px;
+      
+      }
+      
+      .slider-text h2{
+          font-size: 16px;
+          margin-bottom: 10px;
+      }
+      
+      .slider-text p{
+          font-size: 16px;
+          margin-bottom: 16px;
+      }
+      
+      .font-awsome-icon ul li{
+          margin-right: 25px !important;
+          font-size: 30px;
+      }
+      
+      
+          /* indicator start  */
+          .custom-indicator{
+              display: none;
+          }
+          
+     
+          /* indicator end  */
 
      /* banner end   */
       /* feature start  */
 
       .feature{
-        padding: 20px 0px 30px 0px;
+        padding: 30px 0px 30px 0px;
     }
 
     .f-custom-header{}
@@ -205,11 +250,7 @@
             }
         
             .single-feature-icon i:hover{
-                    transform: scale(.8);
-                    transform: rotate(10deg);
-                    color: rgb(255, 193, 37) !important;
-                    margin-left: 5px;
-                    margin-right: -5px;
+                    
                 
             }
         
@@ -228,6 +269,42 @@
                 font-weight: 400;
                 letter-spacing: 1px;
             }
+            /* footer start  */
+            footer {
+               
+                padding: 40px 0 40px 0;
+            }
+            address{
+                text-align: center;
+                margin: 10px 0px;
+            }
+            .f-h-h1 {
+                margin-bottom: 10px;
+            }
+
+            .f-form {
+                padding-top: 15px;
+                padding-bottom: 15px;
+              }
+          .f-email {
+                padding: 5px 10px;
+                height: 40px;
+                font-size: 15px;
+              }
+          .f-submit{
+                height: 40px;}
+          .footer-icon {
+               margin: 20px 0;
+            }
+
+            .footer-icon i {
+                
+                font-size: 40px;
+                margin-left: 25px;
+                
+            }
+
+/* footer end  */
 
 
 
@@ -241,10 +318,24 @@
      nav{
           padding-top: 20px!important;
       }
-     .banner{
-          padding: 60px 0px 80px 0px
-      }
+      .custom-nav-item li a {
+        padding: 0 14px !important;
+        text-align: right;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
 
+    .custom-nav-item li:last-child a{
+        padding: 0 14px !important;
+        margin-bottom: 15px;
+    }
+
+     .banner{
+          padding: 0px 0px 80px 0px
+      }
+      .custom-indicator {
+        bottom: -60px;
+    }
        /* feature start  */
 
        .feature{
@@ -304,7 +395,11 @@
                 font-weight: 400;
                 letter-spacing: 1px;
             }
-
+            /* footer start  */
+            .f-h-h1 {
+                margin-bottom: 15px;
+            }
+            /* footer end  */
 
 
      /* closing tag  */
@@ -312,7 +407,10 @@
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+   
+   .banner{
+        padding: 0px 0px 80px 0px
+    }
 
      /* closing tag  */
 }
@@ -328,5 +426,5 @@
 @media (min-width: 1400px) {
 
 
-     /* closing tag  */
+  
 }
